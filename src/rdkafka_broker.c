@@ -72,7 +72,7 @@
 #include "rdunittest.h"
 
 
-static const int rd_kafka_max_block_ms = 1000;
+static const int rd_kafka_max_block_ms = 100;
 
 const char *rd_kafka_broker_state_names[] = {
 	"INIT",
